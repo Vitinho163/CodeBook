@@ -2,19 +2,30 @@ function pesquisar() {
   // Obtém a seção HTML onde os resultados da pesquisa serão exibidos
   let section = document.getElementById("resultados-pesquisa");
 
+  // Obtém o valor do campo de pesquisa
+  let termoPesquisa = document.getElementById("campo-pesquisa").value.toLowerCase();
+
   // Inicializa uma string vazia para armazenar os resultados formatados em HTML
   let resultados = "";
 
   // Itera sobre cada dado na array 'dados'
   for (let dado of dados) {
-    // Constrói o HTML para cada item do resultado da pesquisa
-    resultados += `
-      <div class="item-resultado">
-        <h2>${dado.titulo}</h2>
-        <p class="descricao-meta">${dado.descricao}</p>
-        <span class="mais-info" data-titulo="${dado.titulo}" data-descricao="${dado.descricao}" data-paginas="${dado.paginas}" data-autor="${dado.autor}" data-link="${dado.link}" >Mais informações</span>
-      </div>
-    `;
+
+    if (dado.titulo.toLowerCase().includes(termoPesquisa) || dado.descricao.toLowerCase().includes(termoPesquisa) || dado.autor.toLowerCase().includes(termoPesquisa)) {
+
+      // Constrói o HTML para cada item do resultado da pesquisa
+      resultados += `
+        <div class="item-resultado">
+          <h2>${dado.titulo}</h2>
+          <p class="descricao-meta">${dado.descricao}</p>
+          <span class="mais-info" data-titulo="${dado.titulo}" data-descricao="${dado.descricao}" data-paginas="${dado.paginas}" data-autor="${dado.autor}" data-link="${dado.link}" >Mais informações</span>
+        </div>
+      `;
+    }
+  }
+
+  if (resultados === "") {
+    resultados = "<p>Nenhum livro encontrado para o termo pesquisado.</p>";
   }
 
   // Atribui o HTML gerado para a seção de resultados
