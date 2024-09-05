@@ -1,62 +1,65 @@
 let dados = [
   {
-    titulo: "Programador Pragmático",
-    descricao: "O Programador Pragmático é um livro indispensável para qualquer profissional da área de programação. Escrito por Andrew Hunt e David Thomas, a obra apresenta uma série de dicas e técnicas práticas para aprimorar a qualidade do código, aumentar a produtividade e otimizar o processo de desenvolvimento de software.",
-    link: "https://en.wikipedia.org/wiki/The_Pragmatic_Programmer#:~:text:text"
+    titulo: "Clean Code: A Handbook of Agile Software Craftsmanship",
+    descricao: "Um guia prático para escrever código limpo e bem estruturado, aumentando a manutenibilidade e a colaboração em projetos de software.",
+    paginas: 464,
+    autor: "Robert C. Martin",
+    link: "https://www.amazon.com/Clean-Code-Handbook-Agile-Software-Craftsmanship/dp/0132350882"
   },
   {
-    titulo: "Clean Code",
-    descricao: "Clean Code, escrito por Robert C. Martin, aborda a importância da escrita de código limpo e bem estruturado. O livro apresenta princípios e técnicas para criar código mais legível, manutenível e escalável, contribuindo para a qualidade e longevidade dos projetos de software.",
-    link: "https://en.wikipedia.org/wiki/Clean_Code_(book)"
+    titulo: "The Pragmatic Programmer",
+    descricao: "Um clássico da programação que aborda diversas técnicas e filosofias para se tornar um programador mais eficaz e produtivo.",
+    paginas: 352,
+    autor: "Andrew Hunt, David Thomas",
+    link: "https://www.amazon.com/Pragmatic-Programmer-From-Journeyman-Master/dp/0201616224"
   },
   {
     titulo: "Design Patterns: Elements of Reusable Object-Oriented Software",
-    descricao: "Design Patterns é um livro clássico que apresenta uma coleção de soluções reutilizáveis para problemas comuns de design de software. Escrito por Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides, a obra explora diversos padrões de projeto, como Factory, Singleton, Observer, entre outros, que podem ser aplicados em diferentes contextos.",
-    link: "https://en.wikipedia.org/wiki/Design_Patterns"
-  },
-  {
-    titulo: "Código Limpo: Habilidades Práticas do Agile Software",
-    descricao: "Um guia completo para escrever código claro, conciso e eficiente. O autor, Robert C. Martin, apresenta princípios e técnicas para criar software mais manutenível e escalável.",
-    link: "https://en.wikipedia.org/wiki/Clean_Code_(book)"
-  },
-  {
-    titulo: "The Mythical Man-Month",
-    descricao: "Um clássico da engenharia de software que explora os desafios de gerenciar projetos de software, como a relação entre o tamanho do projeto e o tempo de desenvolvimento.",
-    link: "https://en.wikipedia.org/wiki/The_Mythical_Man-Month"
-  },
-  {
-    titulo: "Refactoring: Improving the Design of Existing Code",
-    descricao: "Este livro aborda técnicas para melhorar a estrutura interna de um código existente sem alterar seu comportamento externo, tornando-o mais fácil de entender e modificar.",
-    link: "https://en.wikipedia.org/wiki/Refactoring"
-  },
-  {
-    titulo: "Structure and Interpretation of Computer Programs",
-    descricao: "Um livro introdutório à ciência da computação que explora conceitos fundamentais como abstração, recursividade e processos, utilizando a linguagem Lisp.",
-    link: "https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs"
-  },
-  {
-    titulo: "The Art of Computer Programming",
-    descricao: "Uma obra monumental em vários volumes que cobre uma ampla gama de tópicos em ciência da computação, desde algoritmos e estruturas de dados até análise de algoritmos.",
-    link: "https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming"
-  },
-  {
-    titulo: "Domain-Driven Design: Tackling Complexity in the Heart of Software",
-    descricao: "Este livro apresenta uma abordagem para modelar software com base em domínios do problema, ajudando a criar sistemas mais complexos e adaptáveis.",
-    link: "https://en.wikipedia.org/wiki/Domain-Driven_Design"
-  },
-  {
-    titulo: "Test-Driven Development: By Example",
-    descricao: "Um guia prático para o desenvolvimento orientado a testes, uma abordagem que enfatiza a escrita de testes antes do código.",
-    link: "https://en.wikipedia.org/wiki/Test-driven_development"
-  },
-  {
-    titulo: "Cracking the Coding Interview",
-    descricao: "Um livro essencial para quem está se preparando para entrevistas técnicas em empresas de tecnologia, com uma ampla variedade de problemas de programação e dicas para resolvê-los.",
-    link: "https://en.wikipedia.org/wiki/Cracking_the_Coding_Interview"
+    descricao: "Um livro fundamental sobre padrões de projeto, que ajudam a resolver problemas comuns em desenvolvimento de software de forma elegante e reutilizável.",
+    paginas: 416,
+    autor: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    link: "https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented-Software/dp/0201633612"
   },
   {
     titulo: "Introduction to Algorithms",
-    descricao: "Um livro clássico sobre algoritmos e estruturas de dados, cobrindo uma ampla gama de tópicos e fornecendo análises rigorosas de sua eficiência.",
-    link: "https://en.wikipedia.org/wiki/Introduction_to_Algorithms"
+    descricao: "Um livro clássico sobre algoritmos e estruturas de dados, essencial para qualquer programador que busca aprofundar seus conhecimentos em ciência da computação.",
+    paginas: 1312,
+    autor: "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    link: "https://www.amazon.com/Introduction-Algorithms-3rd-Edition-Thomas-H-Cormen/dp/0262033844"
+  },
+  {
+    titulo: "Cracking the Coding Interview",
+    descricao: "Um guia completo para se preparar para entrevistas técnicas em empresas de tecnologia, com exercícios e dicas para resolver problemas de programação.",
+    paginas: 608,
+    autor: "Gayle Laakmann McDowell",
+    link: "https://www.amazon.com/Cracking-Coding-Interview-Programming-Interviews-Exposed/dp/0984782850"
+  },
+  {
+    titulo: "Refactoring: Improving the Design of Existing Code",
+    descricao: "Um livro sobre técnicas para melhorar a estrutura e a qualidade de código existente, tornando-o mais fácil de manter e expandir.",
+    paginas: 448,
+    autor: "Martin Fowler",
+    link: "https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/020148592X"
+  },
+  {
+    titulo: "The Mythical Man-Month: Essays on Software Engineering",
+    descricao: "Um clássico da engenharia de software que aborda os desafios de gerenciar projetos de software e a importância de fatores humanos no desenvolvimento.",
+    paginas: 295,
+    autor: "Frederick P. Brooks Jr.",
+    link: "https://www.amazon.com/Mythical-Man-Month-Essays-Software-Engineering-Anniversary-Edition/dp/0201835959"
+  },
+  {
+    titulo: "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+    descricao: "Um livro sobre como modelar software de forma mais alinhada com o domínio do negócio, resultando em sistemas mais robustos e adaptáveis.",
+    paginas: 560,
+    autor: "Eric Evans",
+    link: "https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Heart-Software/dp/0321125215"
+  },
+  {
+    titulo: "Test-Driven Development: By Example",
+    descricao: "Um guia prático sobre desenvolvimento orientado a testes (TDD), uma abordagem que leva a um código de maior qualidade e confiabilidade.",
+    paginas: 232,
+    autor: "Kent Beck",
+    link: "https://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530"
   }
 ];

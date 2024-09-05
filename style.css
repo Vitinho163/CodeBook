@@ -95,15 +95,15 @@ section button:hover {
     color: #4ECDC4; /* Cor do texto */
 }
 
-/* Estiliza os links dentro dos itens de resultado */
-.item-resultado a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #FF6B6B; /* Cor do texto dos links */
+/* Estiliza os spans dentro dos itens de resultado */
+.item-resultado span {
+    color: #FF6B6B; /* Cor do texto dos span */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
-.item-resultado a:hover {
+.item-resultado span:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    cursor: pointer;
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
@@ -123,6 +123,72 @@ footer {
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
+
+.modal {
+    display: none; /* Esconder o modal por padrão */
+    position: fixed; /* Fixar o modal na tela */
+    z-index: 1; /* Garantir que o modal fique acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Permitir rolagem se o conteúdo for muito grande */
+    background-color: rgba(0,0,0,0.4); /* Fundo escurecido */
+  }
+  
+  .modal-content {
+    background-color: #2A2A2A;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 0.6rem; /* Borda arredondada */
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+ 
+   /* titulo */
+  .modal-content h2 {
+    font-size: 1.5rem;
+    color: #4ECDC4;
+  }
+  
+   /* descrição */
+  .modal-content p:nth-of-type(1) {
+    color: #A1A1A1;
+  }
+
+   /* Autor */
+  .modal-content p:nth-of-type(2) {
+    color: #A1A1A1;
+  }
+
+  /* Editora */
+  .modal-content p:nth-of-type(3) {
+    color: #A1A1A1;
+  }
+
+  /* Editora */
+  .modal-content a {
+    color: #FF6B6B;
+    text-decoration: none;
+  }
+
+  .modal-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .close {
+    color: #FF6B6B;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #4ECDC4;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 @media (max-width: 768px) {
     h1 {
