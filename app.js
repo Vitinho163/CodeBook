@@ -5,6 +5,12 @@ function pesquisar() {
   // Obtém o valor do campo de pesquisa
   let termoPesquisa = document.getElementById("campo-pesquisa").value.toLowerCase();
 
+  // se termopesquisa for igual a uma string vazia, não executa.
+  if (termoPesquisa.trim() == "") {
+    section.innerHTML = "<p>Nada foi encontrado. Você precisa digitar o nome de um livro ou autor</p>"
+    return
+  }
+
   // Inicializa uma string vazia para armazenar os resultados formatados em HTML
   let resultados = "";
 

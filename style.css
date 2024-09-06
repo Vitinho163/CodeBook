@@ -31,6 +31,10 @@ h1 .highlight-b {
   color: #4ECDC4; /* Cor da letra 'b' */
 }
 
+p {
+    color: #A1A1A1;
+}
+
 /* Estiliza as seções da página */
 section {
     display: flex; /* Usa Flexbox para layout */
