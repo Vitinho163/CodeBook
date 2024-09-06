@@ -22,9 +22,9 @@ CodeBook is a web application designed to help users search for technology-relat
 
 ## 🚀 Technologies Used <a name = "tecnologies-used-en"></a>
 
-- **[HTML]**(https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics): Markup language for creating web pages.
-- **[CSS]**(https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics): Style sheet language for designing the presentation of web pages.
-- **[JavaScript]**(https://developer.mozilla.org/en-US/docs/Web/JavaScript): Programming language that allows you to implement dynamic features on web pages.
+- **[HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)**: Markup language for creating web pages.
+- **[CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)**: Style sheet language for designing the presentation of web pages.
+- **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**: Programming language that allows you to implement dynamic features on web pages.
 
 
 ## 📁 Structure of the project <a name = "project_structure_en"></a>
@@ -88,9 +88,9 @@ CodeBook é uma aplicação que permite aos usuários pesquisar por livros relac
 
 ## 🚀 Tecnologias Utilizadas <a name = "tecnologias-usadas-pt"></a>
 
-- **[HTML]**(https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics): Linguagem de marcação para criação de páginas web.
-- **[CSS]**(https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics): Linguagem de estilo para a apresentação de páginas web.
-- **[JavaScript]**(https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): Linguagem de programação que permite implementar funcionalidades dinâmicas em páginas web.
+- **[HTML](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics)**: Linguagem de marcação para criação de páginas web.
+- **[CSS](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics)**: Linguagem de estilo para a apresentação de páginas web.
+- **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**: Linguagem de programação que permite implementar funcionalidades dinâmicas em páginas web.
 
 ## 📁 Estrutura do Projeto <a name = "estrutura-do-projeto-pt"></a>
 A estrutura do projeto é a seguinte:
